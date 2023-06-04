@@ -1,21 +1,49 @@
-body {
+body,
+html {
   background-color: rgb(206, 245, 255);
+  height: 100%;
+}
+.active-link {
+  color: white !important;
 }
 
 .footer {
-  position: absolute;
   width: 100%;
   bottom: 0;
 }
 
+/* This makes page fill full page (for the footer) */
+#page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  flex: 1;
+}
+
 .image-container {
+  position: relative;
   width: 350px;
   height: 350px;
-
   border-radius: 15px;
 }
 
 .about-image {
+  position: absolute;
   height: 100%;
   width: 100%;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media (max-width: 380px) {
+  .image-container {
+    width: 280px;
+    height: 280px;
+  }
 }
