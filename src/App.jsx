@@ -6,7 +6,7 @@ import "./styles/global.css";
 
 function App() {
   const border = {
-    borderBottom: "4px solid navy",
+    borderBottom: "2px solid white",
   };
 
   return (
