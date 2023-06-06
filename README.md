@@ -42,6 +42,11 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
+## Links
+
+- Deployed: https://jmart-portfolio.herokuapp.com/
+- Github: https://github.com/JoshuaMartinez1014/react-portfolio
+
 ## Outside Sources
 
 - Used ChatGpt to create a basic generic resume as a wireframe for this project.
