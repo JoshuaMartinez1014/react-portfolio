@@ -7,7 +7,7 @@ function Header(props) {
     <>
       <Navbar bg="dark" expand="lg" variant="dark">
         <Container fluid className="d-flex">
-          <Navbar.Brand href="#home" className="flex-fill">
+          <Navbar.Brand href="/" className="flex-fill">
             Joshua Martinez's Portfolio
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

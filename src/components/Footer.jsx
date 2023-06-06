@@ -11,14 +11,18 @@ function Footer() {
       <Container>
         <Row>
           <Col className="text-muted">
-            <a href="#">
+            <a href="https://github.com/JoshuaMartinez1014">
               <img
                 className="footer-img"
                 src={github}
                 style={{ height: "30px", marginRight: "20px" }}
               />
             </a>
-            <a href="#">
+            <a
+              href="www.linkedin.com/in/
+joshua-martinez1014
+"
+            >
               <img
                 className="footer-img"
                 src={linkedin}
