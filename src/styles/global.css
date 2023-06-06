@@ -41,6 +41,14 @@ html {
   font-size: 2rem;
 }
 
+.footer-img {
+  transition: transform 0.2s;
+}
+
+.footer-img:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 380px) {
   .image-container {
     width: 280px;

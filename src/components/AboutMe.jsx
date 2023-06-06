@@ -1,5 +1,6 @@
 import { Card, Container, Row, Col } from "react-bootstrap";
 import "../styles/global.css";
+import Resume from "./Resume";
 
 function AboutMe() {
   return (
@@ -35,7 +36,8 @@ function AboutMe() {
                     My love for graphic design fuels my creativity, allowing me
                     to produce visually captivating designs across platforms. I
                     am always eager to learn and stay updated with the latest
-                    trends and technologies.
+                    trends and technologies. <br />
+                    <br /> <Resume />
                   </Card.Text>
                 </Card.Body>
               </Col>
