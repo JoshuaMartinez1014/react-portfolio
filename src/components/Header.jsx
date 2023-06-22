@@ -1,36 +1,68 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
+import brand from "../img/brand.svg";
+import "../styles/global.css";
 
 function Header(props) {
   return (
     <>
-      <Navbar bg="dark" expand="lg" variant="dark">
-        <Container fluid className="d-flex">
-          <Navbar.Brand href="/" className="flex-fill">
-            Joshua Martinez's Portfolio
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
+      <header>
+        <Navbar
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            backgroundColor: "rgb(254, 255, 248)",
+            position: "sticky",
+            top: 0,
+            zIndex: 10,
+            boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
+          }}
+        >
+          <div>
+            <NavLink to="/" style={{}}>
+              <img src={brand} style={{ height: "40px" }} />
+            </NavLink>
+          </div>
+
+          <div>
+            <Nav className="nav-links">
               <NavLink
                 to="/"
                 className="nav-link"
                 activeClassName="active-link"
               >
-                About
+                Home
               </NavLink>
               <NavLink to="/projects" className="nav-link">
                 Projects
               </NavLink>
-
-              <NavLink to="/contactme" className="nav-link">
-                Contact
+              <NavLink to="/Resume" className="nav-link">
+                Resume
               </NavLink>
             </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+          </div>
+
+          <div>
+            <NavLink
+              style={{
+                backgroundColor: "rgb(17,180,242)",
+                borderRadius: "25px",
+                color: "black",
+                fontWeight: "bolder",
+                boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
+              }}
+              to="/contactme"
+              className="nav-link"
+            >
+              Get in Touch
+            </NavLink>
+          </div>
+
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        </Navbar>
+      </header>
     </>
   );
 }
