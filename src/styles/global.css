@@ -50,6 +50,14 @@ body html {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+.footer-img:hover {
+  transition: transform 0.4s;
+}
+
+.footer-img:hover {
+  transform: scale(1.2);
+}
+
 /* Header.css */
 
 @media (max-width: 767px) {

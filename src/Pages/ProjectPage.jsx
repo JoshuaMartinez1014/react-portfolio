@@ -41,7 +41,12 @@ function ProjectPage() {
         >
           <img
             src={gradebook}
-            style={{ height: "350px", width: "700px" }}
+            style={{
+              height: "350px",
+              width: "700px",
+              borderRadius: "15px",
+              boxShadow: "0 0 10px rgba(0, 0, 0, 0.7)",
+            }}
           ></img>
         </div>
         {/*  */}
@@ -98,7 +103,15 @@ function ProjectPage() {
           className="homepage-section"
           style={{ marginTop: "40px", width: "50%" }}
         >
-          <img src={techblog} style={{ height: "375px", width: "700px" }}></img>
+          <img
+            src={techblog}
+            style={{
+              height: "375px",
+              width: "700px",
+              borderRadius: "15px",
+              boxShadow: "0 0 10px rgba(0, 0, 0, 0.7)",
+            }}
+          ></img>
         </div>
         {/*  */}
       </div>

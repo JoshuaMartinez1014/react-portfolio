@@ -1,7 +1,9 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import brand from "../img/brand.svg";
+import Resume from "../img/Joshua_Martinez.pdf";
 
 import "../styles/global.css";
 
@@ -34,13 +36,23 @@ function HomePage(props) {
               fresh ideas and innovative solutions.
             </p>
           </p>
-          <span>
-            <button className="main-content-button">Hire Me</button>{" "}
+          <span style={{ display: "flex", alignItems: "center" }}>
+            <Link to="/contactme">
+              <button className="main-content-button">Hire Me</button>
+            </Link>{" "}
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <span style={{ color: "rgb(17,180,242)", fontSize: "20px" }}>
-              {" "}
-              Download my Resume &nbsp;&nbsp;&gt;
-            </span>
+            <a
+              href={Resume}
+              download
+              target="_blank"
+              rel="noreferrer noopener"
+              className="nav-link"
+            >
+              <span style={{ color: "rgb(17,180,242)", fontSize: "20px" }}>
+                {" "}
+                Download my Resume &nbsp;&nbsp;&gt;
+              </span>
+            </a>
           </span>
         </div>
         <div id="main-content-image"></div>
@@ -165,11 +177,19 @@ function HomePage(props) {
       </div>{" "}
       <div
         style={{
-          height: "400px",
-          marginTop: "50px",
-          backgroundColor: "",
+          height: "300px",
+          marginTop: "100px",
+          display: "flex",
+          justifyContent: "center",
+          fontFamily: "Courgette, cursive",
         }}
-      ></div>
+      >
+        <h2>
+          "Give a man a program, frustrate him for a day. <br /> <br />
+          Teach a man to program, frustrate him for a lifetime." <br /> <br />-
+          Muhammad Waseem
+        </h2>
+      </div>
     </>
   );
 }

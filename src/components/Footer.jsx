@@ -11,7 +11,7 @@ function Footer() {
       <Container>
         <Row>
           <Col className="text-muted">
-            <a href="https://github.com/JoshuaMartinez1014">
+            <a href="https://github.com/JoshuaMartinez1014" target="_blank">
               <img
                 className="footer-img"
                 src={github}
@@ -19,9 +19,10 @@ function Footer() {
               />
             </a>
             <a
-              href="www.linkedin.com/in/
+              href="https://www.linkedin.com/in/
 joshua-martinez1014
 "
+              target="_blank"
             >
               <img
                 className="footer-img"

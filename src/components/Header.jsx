@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import brand from "../img/brand.svg";
 import "../styles/global.css";
+import Resume from "../img/Joshua_Martinez.pdf";
 
 function Header(props) {
   return (
@@ -38,9 +39,15 @@ function Header(props) {
               <NavLink to="/projects" className="nav-link">
                 Projects
               </NavLink>
-              <NavLink to="/Resume" className="nav-link">
-                Resume
-              </NavLink>
+              <a
+                href={Resume}
+                download
+                target="_blank"
+                rel="noreferrer noopener"
+                className="nav-link"
+              >
+                Resume &gt;
+              </a>
             </Nav>
           </div>
 
