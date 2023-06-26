@@ -15,7 +15,8 @@ function Header(props) {
             display: "flex",
             justifyContent: "space-between",
             backgroundColor: "rgb(254, 255, 248)",
-            position: "sticky",
+            position: "fixed",
+            width: "100%",
             top: 0,
             zIndex: 10,
             boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
@@ -29,11 +30,7 @@ function Header(props) {
 
           <div>
             <Nav className="nav-links">
-              <NavLink
-                to="/"
-                className="nav-link"
-                activeClassName="active-link"
-              >
+              <NavLink to="/" className="nav-link">
                 Home
               </NavLink>
               <NavLink to="/projects" className="nav-link">
@@ -52,7 +49,8 @@ function Header(props) {
           </div>
 
           <div>
-            <NavLink
+            <button
+              className="btn btn-primary"
               style={{
                 backgroundColor: "rgb(17,180,242)",
                 borderRadius: "25px",
@@ -60,11 +58,11 @@ function Header(props) {
                 fontWeight: "bolder",
                 boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
               }}
-              to="/contactme"
-              className="nav-link"
             >
-              Get in Touch
-            </NavLink>
+              <NavLink to="/contactme" className="nav-link">
+                Get in Touch
+              </NavLink>
+            </button>
           </div>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

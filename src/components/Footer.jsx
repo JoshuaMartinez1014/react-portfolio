@@ -7,7 +7,7 @@ import linkedin from "../img/linkedin.png";
 
 function Footer() {
   return (
-    <footer className="footer bg-dark text-center py-3">
+    <footer className="footer bg-light text-center py-3">
       <Container>
         <Row>
           <Col className="text-muted">
@@ -28,13 +28,6 @@ joshua-martinez1014
                 className="footer-img"
                 src={linkedin}
                 style={{ height: "30px", marginRight: "20px" }}
-              />
-            </a>
-            <a href="#">
-              <img
-                className="footer-img"
-                src={twitter}
-                style={{ height: "30px" }}
               />
             </a>
           </Col>

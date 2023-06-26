@@ -8,17 +8,13 @@ function ProjectPage() {
   return (
     <>
       <div className="homepage-container">
-        <div className="homepage-section" style={{ marginTop: "40px" }}>
-          <p
-            style={{
-              fontSize: "20px",
-            }}
-          >
-            <div style={{ fontSize: "3rem", lineHeight: "60px" }}>
+        <div className="homepage-section">
+          <div>
+            <div style={{ fontSize: "3rem" }}>
               <strong>Gradebook</strong>
             </div>
             <br />
-            <p style={{ fontSize: "17px" }}>
+            <p style={{ fontSize: "1.1rem" }}>
               &nbsp;&nbsp;&nbsp;&nbsp;This application exhibits a student's
               grades in a simple and organized manner. The overall goal of the
               application is to organize grade information in a way that makes
@@ -32,18 +28,14 @@ function ProjectPage() {
             </p>
             <button className="main-content-button">GitHub</button>
             <button className="main-content-button">Live Site</button>
-          </p>
+          </div>
         </div>
         {/*  */}
-        <div
-          className="homepage-section"
-          style={{ marginTop: "40px", width: "50%" }}
-        >
+        <div className="homepage-section" style={{ marginTop: "40px" }}>
           <img
             src={gradebook}
             style={{
-              height: "350px",
-              width: "700px",
+              width: "100%",
               borderRadius: "15px",
               boxShadow: "0 0 10px rgba(0, 0, 0, 0.7)",
             }}
@@ -54,22 +46,17 @@ function ProjectPage() {
       <div
         className="homepage-container"
         style={{
-          height: "500px",
-          marginTop: "50px",
+          paddingBottom: "20px",
           backgroundColor: "rgb(17,180,242)",
         }}
       >
         <div className="homepage-section" style={{ marginTop: "40px" }}>
-          <p
-            style={{
-              fontSize: "20px",
-            }}
-          >
-            <div style={{ fontSize: "3rem", lineHeight: "60px" }}>
+          <div>
+            <div style={{ fontSize: "3rem" }}>
               <strong>Tech Blog</strong>
             </div>
             <br />
-            <p style={{ fontSize: "17px" }}>
+            <p style={{ fontSize: "1.2rem" }}>
               &nbsp;&nbsp;&nbsp;&nbsp;Create a site where users can come
               together and discuss relevent tech information in the form of
               blogging. The user can make their own posts, or comment on other
@@ -96,18 +83,14 @@ function ProjectPage() {
             >
               Live Site
             </button>
-          </p>
+          </div>
         </div>
         {/*  */}
-        <div
-          className="homepage-section"
-          style={{ marginTop: "40px", width: "50%" }}
-        >
+        <div className="homepage-section" style={{ marginTop: "40px" }}>
           <img
             src={techblog}
             style={{
-              height: "375px",
-              width: "700px",
+              width: "100%",
               borderRadius: "15px",
               boxShadow: "0 0 10px rgba(0, 0, 0, 0.7)",
             }}

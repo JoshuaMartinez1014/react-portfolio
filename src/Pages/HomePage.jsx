@@ -12,20 +12,19 @@ function HomePage(props) {
     <>
       <div className="homepage-container">
         <div className="homepage-section">
-          <p
+          <div
             style={{
               fontSize: "20px",
             }}
           >
             Hello, I am a{" "}
             <span style={{ color: "rgb(17,180,242)" }}>Web Developer</span>
-            <div style={{ fontSize: "3rem", lineHeight: "60px" }}>
+            <p style={{ fontSize: "3rem", lineHeight: "60px" }}>
               <strong>
                 Joshua <br />
                 Martinez
               </strong>
-            </div>
-            <br />
+            </p>
             <p style={{ color: "gray", fontSize: "17px" }}>
               I'm deeply passionate about web development, creating digital
               experiences that seamlessly blend creativity and technical
@@ -35,7 +34,7 @@ function HomePage(props) {
               with industry trends and technologies, I infuse each project with
               fresh ideas and innovative solutions.
             </p>
-          </p>
+          </div>
           <span style={{ display: "flex", alignItems: "center" }}>
             <Link to="/contactme">
               <button className="main-content-button">Hire Me</button>
@@ -48,9 +47,9 @@ function HomePage(props) {
               rel="noreferrer noopener"
               className="nav-link"
             >
-              <span style={{ color: "rgb(17,180,242)", fontSize: "20px" }}>
+              <span style={{ color: "rgb(17,180,242)", fontSize: "1.2rem" }}>
                 {" "}
-                Download my Resume &nbsp;&nbsp;&gt;
+                Download my Resume
               </span>
             </a>
           </span>
@@ -61,13 +60,12 @@ function HomePage(props) {
       <div
         className="homepage-container"
         style={{
-          height: "500px",
           marginTop: "50px",
           backgroundColor: "rgb(17,180,242)",
         }}
       >
-        <div className="homepage-section" style={{ marginTop: "40px" }}>
-          <p
+        <div className="homepage-section">
+          <div
             style={{
               fontSize: "20px",
               color: "white",
@@ -94,84 +92,85 @@ function HomePage(props) {
                 casual rock climbing, enjoying the outside, or listening to
                 music.
               </strong>{" "}
-              I approach my work with a meticulous attention to detail,
-              constantly seeking ways to <strong>refine and improve.</strong>{" "}
               I'm eager to collaborate with fellow professionals who share my
               passion for creating meaningful digital experiences grounded in
-              practicality and functionality.
+              practicality and functionality.{" "}
+              <Link
+                to="/projects"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                My Projects &gt;
+              </Link>{" "}
             </p>
-          </p>
+          </div>
         </div>
         {/*  */}
-        <div className="homepage-section" style={{ marginTop: "40px" }}>
-          <p
+        <div className="homepage-section">
+          <div
             style={{
               fontSize: "20px",
               color: "white",
             }}
           >
-            <div style={{ fontSize: "3rem", lineHeight: "60px" }}>
+            <div style={{ fontSize: "3rem" }}>
               <strong>Expertise</strong>
             </div>
-            <br />
-            <p style={{ color: "white", fontSize: "17px" }}>
-              {" "}
-              <p style={{ color: "white", fontSize: "17px" }}>
-                <span
-                  className="homepage-skill-btn"
-                  style={{ backgroundColor: "orange", color: "black" }}
-                >
-                  Javascript
-                </span>
-                <span
-                  className="homepage-skill-btn"
-                  style={{ backgroundColor: "blue", color: "white" }}
-                >
-                  React
-                </span>
-                <span
-                  className="homepage-skill-btn"
-                  style={{ backgroundColor: "purple", color: "black" }}
-                >
-                  MySql
-                </span>
-                <br />
-                <br />
-                <span
-                  className="homepage-skill-btn"
-                  style={{ backgroundColor: "red", color: "white" }}
-                >
-                  MongoDb
-                </span>
-                <span
-                  className="homepage-skill-btn"
-                  style={{ backgroundColor: "white", color: "black" }}
-                >
-                  Node
-                </span>
-                <span
-                  className="homepage-skill-btn"
-                  style={{ backgroundColor: "black", color: "white" }}
-                >
-                  Illustrator
-                </span>
-                <br />
-                <br />
-                <span
-                  className="homepage-skill-btn"
-                  style={{ backgroundColor: "green", color: "black" }}
-                >
-                  Photoshop
-                </span>
-                <span
-                  className="homepage-skill-btn"
-                  style={{ backgroundColor: "yellow", color: "black" }}
-                >
-                  PremierPro
-                </span>
-              </p>
-            </p>
-          </p>
+            <br />{" "}
+            <div style={{ color: "white" }}>
+              <span
+                className="homepage-skill-btn"
+                style={{ backgroundColor: "orange", color: "black" }}
+              >
+                Javascript
+              </span>
+              <span
+                className="homepage-skill-btn"
+                style={{ backgroundColor: "blue", color: "white" }}
+              >
+                React
+              </span>
+              <span
+                className="homepage-skill-btn"
+                style={{ backgroundColor: "purple", color: "black" }}
+              >
+                MySql
+              </span>
+              <br />
+              <br />
+              <span
+                className="homepage-skill-btn"
+                style={{ backgroundColor: "red", color: "white" }}
+              >
+                MongoDb
+              </span>
+              <span
+                className="homepage-skill-btn"
+                style={{ backgroundColor: "white", color: "black" }}
+              >
+                Node
+              </span>
+              <span
+                className="homepage-skill-btn"
+                style={{ backgroundColor: "black", color: "white" }}
+              >
+                Illustrator
+              </span>
+              <br />
+              <br />
+              <span
+                className="homepage-skill-btn"
+                style={{ backgroundColor: "green", color: "black" }}
+              >
+                Photoshop
+              </span>
+              <span
+                className="homepage-skill-btn"
+                style={{ backgroundColor: "yellow", color: "black" }}
+              >
+                PremierPro
+              </span>
+            </div>
+          </div>
         </div>
         {/*  */}
       </div>{" "}
