@@ -19,6 +19,8 @@ body {
   width: 40%;
   border-radius: 15px;
   padding: 20px;
+  margin-top: 15px;
+  min-height: 400px;
 }
 
 .main-content-button {
@@ -81,6 +83,7 @@ body {
     margin-bottom: 20px;
     border-radius: 15px;
     padding: 15px;
+    min-height: 0px;
   }
 
   #main-content-image {

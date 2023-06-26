@@ -49,20 +49,20 @@ function Header(props) {
           </div>
 
           <div>
-            <button
-              className="btn btn-primary"
-              style={{
-                backgroundColor: "rgb(17,180,242)",
-                borderRadius: "25px",
-                color: "black",
-                fontWeight: "bolder",
-                boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
-              }}
-            >
-              <NavLink to="/contactme" className="nav-link">
+            <NavLink to="/contactme" className="nav-link">
+              <button
+                className="btn btn-primary"
+                style={{
+                  backgroundColor: "rgb(17,180,242)",
+                  borderRadius: "25px",
+                  color: "black",
+                  fontWeight: "bolder",
+                  boxShadow: "0 0 10px rgba(0, 0, 0, 0.5)",
+                }}
+              >
                 Get in Touch
-              </NavLink>
-            </button>
+              </button>
+            </NavLink>
           </div>
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
