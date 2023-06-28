@@ -31,7 +31,7 @@ function ProjectPage() {
         {/*  */}
         <div className="homepage-section" style={{ marginTop: "40px" }}>
           <img
-            src={"../../public/img/gradebook-screenshot.png"}
+            src={"/img/gradebook-screenshot.png"}
             style={{
               width: "100%",
               borderRadius: "15px",
@@ -86,7 +86,7 @@ function ProjectPage() {
         {/*  */}
         <div className="homepage-section" style={{ marginTop: "40px" }}>
           <img
-            src={"../../public/img/tech-blog.png"}
+            src={"/img/tech-blog.png"}
             style={{
               width: "100%",
               borderRadius: "15px",
