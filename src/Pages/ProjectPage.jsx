@@ -1,7 +1,5 @@
 import { Container, Form, Button } from "react-bootstrap";
 import { Table } from "react-bootstrap";
-import gradebook from "../img/gradebook-screenshot.png";
-import techblog from "../img/tech-blog.png";
 import "../styles/global.css";
 
 function ProjectPage() {
@@ -33,7 +31,7 @@ function ProjectPage() {
         {/*  */}
         <div className="homepage-section" style={{ marginTop: "40px" }}>
           <img
-            src={gradebook}
+            src={"../../public/img/gradebook-screenshot.png"}
             style={{
               width: "100%",
               borderRadius: "15px",
@@ -88,7 +86,7 @@ function ProjectPage() {
         {/*  */}
         <div className="homepage-section" style={{ marginTop: "40px" }}>
           <img
-            src={techblog}
+            src={"../../public/img/tech-blog.png"}
             style={{
               width: "100%",
               borderRadius: "15px",
