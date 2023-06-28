@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.63c97604.css",
+    "main.js": "/static/js/main.0fe47260.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/gradebook-screenshot.png": "/static/media/gradebook-screenshot.005a60d0a0034e97824c.png",
+    "static/media/MainProfile1.png": "/static/media/MainProfile1.b803dc5ef1408abfffb6.png",
+    "static/media/Joshua_Martinez.pdf": "/static/media/Joshua_Martinez.0b2e32d12118ff21d80a.pdf",
+    "static/media/tech-blog.png": "/static/media/tech-blog.fb353e0f7fd672fd085b.png",
+    "static/media/resume.pdf": "/static/media/resume.648a5486d6432c3cf4b4.pdf",
+    "static/media/twitter.png": "/static/media/twitter.894988327f8d68209e91.png",
+    "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/brand.svg": "/static/media/brand.e818c550f22ec552075b16df6ffd03ca.svg",
+    "index.html": "/index.html",
+    "main.63c97604.css.map": "/static/css/main.63c97604.css.map",
+    "main.0fe47260.js.map": "/static/js/main.0fe47260.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63c97604.css",
+    "static/js/main.0fe47260.js"
+  ]
+}
